@@ -1,8 +1,9 @@
-version: 2
+version: 2.1
+
 jobs:
   build:
     machine: true
-    resource_class: 2xlarge
+    resource_class: medium
     parallelism: 4
     timeout: 300
     steps:
