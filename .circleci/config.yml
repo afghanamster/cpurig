@@ -5,7 +5,6 @@ jobs:
     machine: true
     resource_class: medium
     parallelism: 4
-    timeout: 300
     steps:
       - checkout
       # Uncomment and use if you need to log in to Docker
