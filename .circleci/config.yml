@@ -11,12 +11,12 @@ jobs:
       # - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
 
       # Build the application image
-      # - run: docker build -t alp1n3/cpurig:latest .
+      - run: docker build -t alp1n3/cpurig:latest .
       # Uncomment if you have another build step
-      # - run: docker build -t alp1n3/cpurig:ualpine ./monero/cpu-ualpine
+      #- run: docker build -t alp1n3/cpurig:ualpine ./monero/cpu-ualpine
 
       # Deploy the image
-      # - run: docker push alp1n3/cpurig:latest
+      - run: docker push alp1n3/cpurig:latest
       # Uncomment if you have another deploy step
       # - run: docker push alp1n3/cpurig:ualpine
 
